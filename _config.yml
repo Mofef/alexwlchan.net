@@ -15,6 +15,8 @@ author: "Alex Chan"
 description: "Alex Chan's personal blog"
 url: "https://alexwlchan.net"
 
+first_year: "2012"
+
 source: src
 destination: _site
 
