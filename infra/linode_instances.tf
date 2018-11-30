@@ -1,11 +1,5 @@
-variable "linode_api_token" {}
-
-provider "linode" {
-  token = "${var.linode_api_token}"
-}
-
 resource "linode_instance" "helene" {
-  type  = "g6-nanode-1"
+  type   = "g6-nanode-1"
   region = "eu-west"
 
   config {
